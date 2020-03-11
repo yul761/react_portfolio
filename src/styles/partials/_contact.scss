@@ -1,0 +1,79 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  &__picture {
+    display: none;
+  }
+
+  &__picturewithInfo {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    &-img {
+      width: 70%;
+      height: 100%;
+      margin: 2% 15%;
+      border-radius: 4px;
+    }
+  }
+
+  &__info {
+    display: none;
+  }
+}
+
+@include tablet {
+  .contact {
+    &__picturewithInfo {
+      display: none;
+    }
+
+    &__picture {
+      display: flex;
+      width: 48vw;
+      margin-left: 2vw;
+      height: 100%;
+      &-img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      width: 48vw;
+      margin-right: 2vw;
+      height: 100%;
+      text-align: center;
+      &-container {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        font-family: "Bellota";
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 5% 2%;
+
+        &--title {
+          font-weight: bold;
+        }
+      }
+
+      &-slogan {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        font-family: "Bellota";
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 5% 2%;
+
+        &--content {
+          margin-bottom: 8%;
+        }
+      }
+    }
+  }
+}
