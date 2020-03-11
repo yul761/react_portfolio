@@ -21,10 +21,9 @@ export default class welcome extends Component {
             Full-Stack Developer | Unity Game Developer
           </div>
           <div className="welcome__info-description">
-            I am a passionate software developer who loves to make products that
-            could make impacts on the real world. Solid coding habits help me
-            build fascinate websites and mobile games and the desire to always
-            seek challenges pushed me to perfection.
+            Coming from a comupter engineer background, equipped with solid
+            coding habits, I seek challengs in web development and mobile games
+            development.
           </div>
           <div className="welcome__info-links">
             <a
