@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+#root {
+  background-image: linear-gradient(to bottom right, #f0f2f0, #000c40);
+}
 @import url("https://fonts.googleapis.com/css?family=Bellota&display=swap");
 @import "./partials/breakpoint";
 @import "./partials/welcome";

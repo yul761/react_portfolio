@@ -28,7 +28,12 @@ export default class contact extends Component {
               Get In Touch
             </ol>
             <ol className="contact__info-container--content">
-              yul761@mail.usask.ca
+              <a
+                href="mailto:yul761@mail.usask.ca?Subject=Web%20Developer%20Opportunity"
+                target="_top"
+              >
+                yul761@mail.usask.ca
+              </a>
             </ol>
             <ol className="contact__info-container--content">306-491-2795</ol>
           </ul>

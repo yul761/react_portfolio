@@ -6,6 +6,11 @@
           box-sizing: border-box;
 }
 
+#root {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f0f2f0), to(#000c40));
+  background-image: linear-gradient(to bottom right, #f0f2f0, #000c40);
+}
+
 /* media query for mobile */
 /* media query for tablet */
 /* media query for desktop */
@@ -21,6 +26,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin-right: 0;
+  width: 100vw;
 }
 
 .welcome__img {
@@ -30,6 +36,9 @@
 
 .welcome__img-pic {
   width: 100%;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 4px black;
+          box-shadow: 2px 2px 4px black;
 }
 
 .welcome__info {
@@ -166,15 +175,15 @@
 .projects__content-welife--preview--container {
   width: 70%;
   margin: 2% 15%;
-  border: 1px black solid;
   border-radius: 4px;
 }
 
 .projects__content-welife--preview--container--src {
   width: 100%;
   height: 100%;
-  padding: 1%;
   border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 4px black;
+          box-shadow: 4px 4px 4px black;
 }
 
 .projects__content-welife--preview--container--src:focus {
@@ -225,6 +234,8 @@
   height: 100%;
   margin: 2% 15%;
   border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 4px black;
+          box-shadow: 2px 2px 4px black;
 }
 
 .contact__info {
@@ -246,6 +257,8 @@
   .contact__picture-img {
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 2px 2px 4px black;
+            box-shadow: 2px 2px 4px black;
   }
   .contact__info {
     display: -webkit-box;
