@@ -206,6 +206,59 @@
   margin: 2% 0;
 }
 
+.projects__content-covidTracker {
+  height: 100%;
+}
+
+.projects__content-covidTracker--title {
+  width: 70vw;
+  height: 10%;
+  margin: 2% 15%;
+  font-family: "Bellota";
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.projects__content-covidTracker--preview {
+  width: 100vw;
+  height: 50%;
+}
+
+.projects__content-covidTracker--preview--container {
+  width: 70%;
+  margin: 2% 15%;
+  border-radius: 4px;
+}
+
+.projects__content-covidTracker--preview--container--src {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 4px black;
+          box-shadow: 4px 4px 4px black;
+}
+
+.projects__content-covidTracker--preview--container--src:focus {
+  outline: none;
+}
+
+.projects__content-covidTracker--description {
+  width: 100vw;
+  height: 40%;
+  font-family: "Bellota";
+  font-size: 1rem;
+}
+
+.projects__content-covidTracker--description--details {
+  width: 60%;
+  margin: 2% 20%;
+}
+
+.projects__content-covidTracker--description--details--content {
+  margin: 2% 0;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
